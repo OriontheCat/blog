@@ -1,3 +1,5 @@
+##Conway's Game of Life
+
 For my first Honor's AI project, I had to create my own copy of Conway's Game of Life. I used Java and [StdDraw](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html) only because I thought it was required to stick to Java. If I had realized this wasn't the case, I probably would have used [P5.js](https://p5js.org/) or [DartLang](https://dartlang.org/)'s [Flutter](https://flutter.io/). First I wanted to get the graphics done because it would be hard to test the logic with a printout of the boolean matrix. I created three methods for drawing the game: `drawGrid()`, `drawCell()`, and `drawAllCells()`. My grid drawing method simply drew a bunch of rectangles based on some variables:
 ```java
 void drawGrid() {
