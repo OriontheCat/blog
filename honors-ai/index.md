@@ -1,2 +1,2 @@
 ## Articles:
-[Conway's Game of Life](honors-ai/conways-game-of-life)
+[Conway's Game of Life](./conways-game-of-life)

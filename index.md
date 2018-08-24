@@ -1,2 +1,2 @@
 ## Blogs:
-[Honor's Artificial Intelligence](blogs/honors-ai)
+[Honor's Artificial Intelligence](./honors-ai)
