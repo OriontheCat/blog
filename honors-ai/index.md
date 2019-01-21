@@ -1,4 +1,8 @@
 ## Articles:
-[Conway's Game of Life](./conways-game-of-life)
 
-[Grid World](./grid-world)
+[boolean-tree](./boolean-tree)
+[braitenberg-vehicles](./braitenberg-vehicles)
+[conways-game-of-life](./conways-game-of-life)
+[grid-world](./grid-world)
+[hex-game](./hex-game)
+[language-guesser](./language-guesser)
