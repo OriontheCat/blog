@@ -11,3 +11,6 @@
 [hex-game](./hex-game)
 
 [language-guesser](./language-guesser)
+
+
+[flocking](./flocking)
