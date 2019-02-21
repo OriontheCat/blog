@@ -12,5 +12,7 @@
 
 [language-guesser](./language-guesser)
 
-
 [flocking](./flocking)
+
+
+[bridge-pattern](./bridge-pattern)
