@@ -16,5 +16,6 @@
 
 [bridge-pattern](./bridge-pattern)
 
-
 [perceptron](./perceptron)
+
+[digit_recognition](./digit_recognition])
