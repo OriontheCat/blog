@@ -1,0 +1,8 @@
+# Spam Bot
+## How I approached it
+### Rip MUS2BS
+I originally tried to create a LSTM Seq2Seq to turn Music into [beat saber](https://www.youtube.com/watch?v=NaJLnSFNgWE) note seqences. I found that Beat Saber just used json arrays of floats for their notes, obstacles, and events so I could just turn each note into a token. For the music I used soundfile, to turn music into a list of floats. My loading samples crashed after 4 samples so I scrapped the project.
+### Moving On
+I decided to makea new project that still used [keras](https://keras.io/) and an LSTM. I remembered that [auttaja](https://auttaja.io/), a bot on one of the Discord servers I am on, had really bad naive spam prevention, pretty much it muted anyone who typed in caps or had too many emojis in their message. I decided to make my own spam prevention bot. I looked for any spam datasets for emails and social media, but I could only find ones for SMS, I got my data from [kaggle](https://www.kaggle.com/ishansoni/sms-spam-collection-dataset). I enumerated my data by making a dictionary for int->word. I then created a 30 neuron LSTM using keras and trained it. I used [discord.py](https://github.com/Rapptz/discord.py) to create a Bot for discord. I didn't want to train the network everytime so I looked online for code to save and load keras networks, and I just used the [first one I found](https://machinelearningmastery.com/save-load-keras-deep-learning-models/).
+## Problems
+I completely forgot how the model.predict() function so I simply put [data] when you really have to put [[data]] and then get the 0 index. That caused a lot of headaches.
