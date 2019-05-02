@@ -22,4 +22,4 @@
 
 [double_half_moon](./double_half_moon)
 
-[spam-bot][./spam-bot]
+[spam-bot](./spam-bot)
