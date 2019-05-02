@@ -21,3 +21,5 @@
 [digit_recognition](./digit_recognition])
 
 [double_half_moon](./double_half_moon)
+
+[spam-bot][./spam-bot]
